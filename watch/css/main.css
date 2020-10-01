@@ -1,0 +1,195 @@
+.full-site-container{
+    padding: 0 16%;
+}
+.nav-link{
+    position: relative;
+    color:#CCC;
+}
+
+.nav-link:hover::after{
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 1px;
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-color: #CCC;
+}
+
+#search-input{
+    border: none;
+    
+    
+   
+}
+::placeholder{
+    color: black;
+    font-weight: 500;
+}
+#search-input:focus{
+    border-color: #ffffff;
+    box-shadow: 0 2px 2px -2px rgb(66, 66, 66);
+    
+    
+    
+}
+#search-input:hover{
+    box-shadow: 0 2px 2px -2px rgb(66, 66, 66);
+    
+}
+
+@media screen and (max-width: 575px){
+    #search-input{
+        display: none;
+    }
+    #collapsibleNavId{
+        background-color: rgb(233,87,87);
+        padding:10%;
+    }
+}
+#intro {
+	width: 100%;
+  	height: 100vh;
+  	background-image: url('../img/watches.jpg');
+	background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 130% 40%;
+    overflow: hidden;
+  	position: relative;
+  	
+}
+#intro:before {
+ content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#intro1{
+    width: 100%;
+  	height: 100vh;
+  	background-image: url('../img/runners.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    
+    overflow: hidden;
+  	position: relative;
+}
+#intro1:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header-section{
+    margin-top: 200px;
+}
+
+
+.title,.title1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.title1{
+    color: #fff;
+}
+
+.item-keynote{
+    padding: 0px 35px;
+    border-left: 2px solid #CCC;
+    color: rgb(126, 125, 125);
+}
+.item-keynote1{
+    padding: 0px 35px;
+    border-left: 2px solid #fff;
+    color: #fff;
+    font-weight: 500;
+}
+ .keynote-button{
+     border-radius: none;
+     font-size: 14px;
+     font-weight: 500;
+     padding: 10px 20px ;
+ }
+ .keynote-button:hover{
+     background-color: #fff;
+     color: rgb(233, 87, 87);
+
+ }
+ @media screen and (max-width: 575px){
+     .title, .title1{
+         font-size: 25px;
+     }
+     .item-keynote,.item-keynote1{
+         font-size:12px;
+     }
+    
+     .keynote-button{
+         font-size:10px;
+         padding:5px 15px;
+     }
+     .header-section{
+         margin-top: 60px;
+     }
+ }
+.article-title{
+font-size: 15px;
+font-weight: bold;
+}
+.article-text{
+    font-size: 14px;
+    color: rgb(126, 125, 125);;
+}
+.square{
+    width: 5px;
+    height: 5px;
+    background-color: rgb(126, 125, 125);
+}
+.line{
+    width: 30px;
+    height: 3px;
+    background-color: rgb(233, 87, 87);
+}
+.learn-more{
+    color: rgb(233, 87, 87);
+    font-size: 13px;
+    font-weight: 500;
+}
+.learn-more:hover{
+    text-decoration: none;
+    color: rgb(255, 8, 8);
+    
+}
+.learn-more:hover .line{
+    background-color: rgb(255,8,8);
+    transform: scale(2,1);
+    margin-left: 10px;
+    transition:all 0.2s linear;
+    
+}
+#intro1 .footer-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    
+    padding: 0 15px;
+  }
