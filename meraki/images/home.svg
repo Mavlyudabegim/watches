@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 12px;
+        fill: #dbdbdb;
+        font-family: "Myriad Pro";
+      }
+    </style>
+  </defs>
+  <g id="home">
+    <rect class="cls-1" width="1920" height="1080"/>
+    <text id="_1920x1080" data-name="1920x1080" class="cls-2" transform="matrix(17.201, 0, 0, 17.201, 488.667, 600.583)">1920x1080</text>
+  </g>
+</svg>

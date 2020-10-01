@@ -1,0 +1,10 @@
+<svg id="next" xmlns="http://www.w3.org/2000/svg" width="19" height="36" viewBox="0 0 19 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="Path_44" data-name="Path 44" class="cls-1" d="M118.022,18.009,102.695,2.365a1.406,1.406,0,0,1,0-1.959,1.338,1.338,0,0,1,1.919,0L120.9,17.029a1.406,1.406,0,0,1,0,1.959L104.614,35.612a1.338,1.338,0,0,1-1.919-.034,1.406,1.406,0,0,1,0-1.925Z" transform="translate(-102.297 0)"/>
+</svg>
